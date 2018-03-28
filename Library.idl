@@ -1,0 +1,6 @@
+module  Library{
+	interface Lib{
+		boolean issue_book(in string b_name);
+		boolean return_book(in string b_name);
+	};
+};
