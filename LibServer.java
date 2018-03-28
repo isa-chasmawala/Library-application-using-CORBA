@@ -6,6 +6,7 @@ import java.util.*;
 class LibServer extends _LibImplBase
 {
 	HashMap< String , Integer > storage = new HashMap<>();
+	//Add name of the book and quantity as per choice
 	public LibServer(){
 	storage.put("DS",2);
 	storage.put("DBMS",2);
